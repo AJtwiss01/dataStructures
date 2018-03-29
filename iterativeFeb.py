@@ -17,7 +17,7 @@ def F_iter(n):
       else:
               return -1
             
-nterms = 10
+#nterms = 10
 
 # uncomment to take input from the user
 nterms = int(input("How many terms? "))

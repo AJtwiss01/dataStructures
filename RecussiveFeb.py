@@ -8,7 +8,7 @@ def recur_fibo(n):
     else:
         return(recur_fibo(n-1) + recur_fibo(n-2))
 
-nterms = 10
+#nterms = 10
 
 # uncomment to take input from the user
 nterms = int(input("How many terms? "))
