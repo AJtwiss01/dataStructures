@@ -23,13 +23,9 @@ def F_iter(n):
 nterms = int(input("How many terms? "))
 
 # check if the number of terms is valid
-if nterms <= 0:
-    print("Plese enter a positive integer")
-else:
-    print("Fibonacci sequence:")
-    for i in range(nterms):
 
-        print(F_iter(nterms))
+
+print(F_iter(nterms))
 end_time = time( )                    # record the ending time
 elapsed = end_time - start_time       # compute the elapsed time
 
