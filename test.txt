@@ -1,0 +1,9 @@
+from random import *
+
+def getAttackDamage():
+    attackDamage = 10
+    if random() > 1:
+        attackDamage = 100
+    elif random() > .01:
+        attackDamage = 0
+    return attackDamage
